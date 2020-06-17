@@ -1,5 +1,5 @@
 .main-footer {
-  background-color: orange;
+  background-color: #007bff;
   color: white;
   padding-top: 1.4rem;
   padding-bottom: 1.4rem;
@@ -8,3 +8,28 @@
   width: 100%;
   text-align: center;
 }
+
+a:link {
+    color: green;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
+  a:visited {
+    color: white;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    color: red;
+    background-color: transparent;
+    text-decoration: underline;
+  }
+  
+  a:active {
+    color: yellow;
+    background-color: transparent;
+    text-decoration: underline;
+  }
+  

@@ -3,7 +3,7 @@ import { Navbar, Nav, NavDropdown, Form, FormControl, Button } from 'react-boots
 
 const MyNavbar = props =>{
     return (
-        <Navbar style={{background:"orange"}} expand="sm">
+        <Navbar bg="primary" variant="dark" expand="sm">
         <Navbar.Brand href="#home">Hello bootstrap</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
@@ -20,7 +20,7 @@ const MyNavbar = props =>{
           </Nav>
           <Form inline>
             <FormControl type="text" placeholder="Search" className="mr-sm-2" />
-            <Button variant="outline-success">Search</Button>
+            <Button variant="outline-light">Search</Button>
           </Form>
         </Navbar.Collapse>
       </Navbar>
